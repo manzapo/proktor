@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="id" class="h-100">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ .Site.Title }}</title>
+		<link rel="canonical" href="{{ .Permalink }}">
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 	</head>
-	<body>
+	<body class="d-xl-flex flex-xl-column h-100">
+
 		{{ block "main" . }}
 			<!-- The part of the page that begins to differ between templates -->
 		{{ end }}
@@ -14,6 +16,7 @@
 		{{ block "footer" . }}
 			{{ partial "footer.html" . }}
 		{{ end }}
+
 		<script type="text/javascript" src="/assets/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
