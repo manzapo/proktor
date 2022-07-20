@@ -1,6 +1,15 @@
 {{ define "main" }}
 	<div class="container">
-		<h1>{{ .Site.Title }}</h1>
-		<p class="lead">{{ .Site.Params.description }}</p>
+		<div class="p-4 p-sm-5 my-3 my-sm-5 bg-light rounded-4">
+			<div class="row justify-content-center justify-content-md-evenly align-items-md-center gap-4 gap-md-0">
+				<div class="order-2 order-md-1 col-sm-12 col-md-7 col-lg-5 text-center text-md-start">
+					<h1 class="fw-bold">{{ .Site.Title }}</h1>
+					<p class="lead mb-0">Publikasi tidak resmi Pelaksana Aplikasi Kemenag Ponorogo. Dikelola secara kolektif sebagai index pengarsipan berbagai kegiatan.</p>
+				</div>
+				<div class="order-1 order-md-2 col-sm-6 col-md-5 col-lg-4">
+					<img src="/assets/index/undraw_dev_productivity_re_fylf.svg" alt="Dev productivity" class="img-fluid">
+				</div>
+			</div>
+		</div>
 	</div>
 {{ end }}
