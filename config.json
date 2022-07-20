@@ -1,0 +1,12 @@
+{
+	"baseURL" : "https://proktor.kolektif.my.id/",
+	"languageCode" : "id-ID",
+	"title" : "Proktor Ponorogo",
+	"permalinks": {
+		"posts": "/post/:title/"
+	},
+	"Params": {
+		"description" : "Publikasi Pelaksana Aplikasi Kemenag Ponorogo"
+	},
+	"canonifyURLs" : true
+}
