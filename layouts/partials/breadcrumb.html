@@ -1,7 +1,9 @@
-<nav aria-label="breadcrumb">
-	<ol class="breadcrumb border-bottom py-3">
-		{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-	</ol>
+<nav class="bg-light border-bottom py-3 mb-3" aria-label="breadcrumb">
+	<div class="container">
+		<ol class="breadcrumb mb-0">
+			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+		</ol>
+	</div>
 </nav>
 
 {{ define "breadcrumbnav" }}
