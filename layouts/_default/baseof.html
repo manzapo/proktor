@@ -3,10 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		{{ if .Page.Title }}
-			<title>{{ .Page.Title }} &middot; {{ .Site.Title }}</title>
-		{{ else }}
-			<title>{{ .Site.Title }}</title>
+		{{ block "title" . }}
+			{{ if .Page.Title }}
+				<title>{{ .Page.Title }} &middot; {{ .Site.Title }}</title>
+			{{ else }}
+				<title>{{ .Site.Title }}</title>
+			{{ end }}
 		{{ end }}
 		{{ if .Page.Description }}
 			<meta name="description" content="{{ .Page.Description }}">
