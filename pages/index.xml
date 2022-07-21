@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Proktor Ponorogo</title>
+    <link>https://proktor.kolektif.my.id/pages/</link>
+    <description>Recent content in Pages on Proktor Ponorogo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Thu, 21 Jul 2022 11:27:18 +0700</lastBuildDate><atom:link href="https://proktor.kolektif.my.id/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo Script</title>
+      <link>https://proktor.kolektif.my.id/demo/</link>
+      <pubDate>Thu, 21 Jul 2022 11:27:18 +0700</pubDate>
+      
+      <guid>https://proktor.kolektif.my.id/demo/</guid>
+      <description>Loading… </description>
+    </item>
+    
+  </channel>
+</rss>
