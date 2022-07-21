@@ -1,12 +1,23 @@
 {
 	"baseURL" : "https://proktor.kolektif.my.id/",
 	"languageCode" : "id-ID",
+	"defaultContentLanguage" : "id",
+	"defaultContentLang" : "id",
 	"title" : "Proktor Ponorogo",
 	"permalinks": {
-		"posts": "/post/:title/"
+		"posts": "/post/:slug/"
 	},
 	"Params": {
 		"description" : "Publikasi Pelaksana Aplikasi Kemenag Ponorogo"
 	},
-	"canonifyURLs" : true
+	"canonifyURLs" : true,
+	"markup" : {
+		"goldmark" : {
+			"renderer" : {
+				"unsafe": true
+			}
+		}
+	},
+	"paginate"     : 5,
+	"paginatePath" : "/"
 }

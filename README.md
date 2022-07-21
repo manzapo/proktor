@@ -1,5 +1,5 @@
 # proktor.kolektif.my.id
-Publikasi Pelaksana Aplikasi Kemenag Ponorogo
+Publikasi tidak resmi Pelaksana Aplikasi Kemenag Ponorogo. Dikelola secara kolektif sebagai index pengarsipan berbagai kegiatan.
 
 ## Diberdayakan dengan
 - [Hugo](https://github.com/gohugoio/hugo/) `v0.101.0`

@@ -11,5 +11,22 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-12 col-md-9 col-lg-7 col-xl-6 col-xxl-5" id="posts">
+				<!-- sm:516 md:516 lg:536 xl:546 xxl:526 -->
+				<div class="d-flex flex-row align-items-center border-bottom pb-1 mb-3">
+					<h5 class="flex-grow-1">Unggahan Terbaru</h5>
+					<a href="/posts/" class="text-decoration-none">Selengkapnya</a>
+				</div>
+
+				{{ range first 6 (where .Site.RegularPages.ByWeight "Type" "posts") }}
+
+					{{ partial "excerpt.html" . }}
+
+				{{ end }}
+
+			</div>
+		</div>
 	</div>
 {{ end }}
