@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://proktor.kolektif.my.id/categories/</loc>
+    <loc>https://proktor.kolektif.my.id/post/menaikkan-siswa-emis/</loc>
+    <lastmod>2022-07-21T10:12:44+07:00</lastmod>
   </url><url>
     <loc>https://proktor.kolektif.my.id/</loc>
+    <lastmod>2022-07-21T10:12:44+07:00</lastmod>
+  </url><url>
+    <loc>https://proktor.kolektif.my.id/posts/</loc>
+    <lastmod>2022-07-21T09:33:33+07:00</lastmod>
+  </url><url>
+    <loc>https://proktor.kolektif.my.id/categories/</loc>
   </url><url>
     <loc>https://proktor.kolektif.my.id/tags/</loc>
   </url>
