@@ -5,5 +5,6 @@ description : {{ replace .Name "-" " " | title }}
 slug        : {{ .Name }}
 stylesheet  :
 - 
+layout      : plain
 ---
 
