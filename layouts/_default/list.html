@@ -4,9 +4,13 @@
 
 {{ define "main" }}
 	{{ partial "breadcrumb.html" . }}
+	<div class="bg-light border-bottom pt-3 pb-4 mb-4">
+		<div class="container">
+			<h1>{{ .Page.Title }}</h1>
+			<div class="text-primary fw-bold">/posts/</div>
+		</div>
+	</div>
 	<div class="container">
-		<h1>{{ .Page.Title }}</h1>
-		<div class="text-primary fw-bold mb-5">/posts/</div>
 		<div class="row">
 			<div class="col-12 col-md-9 col-lg-7 col-xl-6 col-xxl-5" id="posts">
 				<!-- sm:516 md:516 lg:536 xl:546 xxl:526 -->
@@ -15,6 +19,5 @@
 				{{ end }}
 			</div>
 		</div>
-		
 	</div>
 {{ end }}

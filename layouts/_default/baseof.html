@@ -18,7 +18,11 @@
 		<link rel="canonical" href="{{ .Permalink }}">
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
 		{{ block "stylesheet" . }}
-			<!-- custom css -->
+			{{ if .Page.Params.stylesheet }}
+				{{ range .Page.Params.stylesheet }}
+					<link rel="stylesheet" type="text/css" href="/assets/css/{{ . }}">
+				{{ end }}
+			{{ end }}
 		{{ end }}
 
 		<!-- Favicons -->

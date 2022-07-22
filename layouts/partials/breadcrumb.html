@@ -1,4 +1,4 @@
-<nav class="bg-light border-bottom mb-3" aria-label="breadcrumb">
+<nav class="bg-dark" aria-label="breadcrumb">
 	<div class="container">
 		<ol class="breadcrumb breadcrumb-scroller mb-0 py-3">
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
@@ -17,9 +17,9 @@
 		<li class="breadcrumb-item active" aria-current="page">{{ .p1.Lastmod.Format "2 January 2006" }}</li>
 	{{ else }}
 		{{ if .p1.IsHome }}
-			<li class="breadcrumb-item"><a href="{{ .p1.Permalink }}" class="text-decoration-none">Home</a></li>
+			<li class="breadcrumb-item"><a href="{{ .p1.Permalink }}" class="link-light text-decoration-none">Home</a></li>
 		{{ else }}
-			<li class="breadcrumb-item"><a href="{{ .p1.Permalink }}" class="text-decoration-none">{{ .p1.Title }}</a></li>
+			<li class="breadcrumb-item"><a href="{{ .p1.Permalink }}" class="link-light text-decoration-none">{{ .p1.Title }}</a></li>
 		{{ end }}
 	{{ end }}
 {{ end }}
