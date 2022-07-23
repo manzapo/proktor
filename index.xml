@@ -44,12 +44,12 @@
       
       <guid>https://proktor.kolektif.my.id/post/menaikkan-siswa-emis/</guid>
       <description>&lt;div class=&#34;card mb-3&#34;&gt;
-	&lt;div class=&#34;card-header d-flex flex-column flex-sm-row justify-content-sm-between&#34;&gt;
+	&lt;div class=&#34;card-header d-flex flex-column flex-sm-row justify-content-sm-between px-xl-4&#34;&gt;
 		&lt;div class=&#34;order-sm-2 text-black-50 small&#34;&gt;21 Jul&lt;/div&gt;
-		&lt;a href=&#34;https://proktor.kolektif.my.id/post/menaikkan-siswa-emis/&#34; class=&#34;order-sm-1 link-dark text-decoration-none&#34;&gt;Pertanyaan Menaikkan Siswa di EMIS&lt;/a&gt;
+		&lt;a href=&#34;https://proktor.kolektif.my.id/post/menaikkan-siswa-emis/&#34; class=&#34;order-sm-1 link-secondary text-decoration-none&#34;&gt;Pertanyaan Menaikkan Siswa di EMIS&lt;/a&gt;
 	&lt;/div&gt;
 	&lt;div class=&#34;card-body p-xl-4&#34;&gt;
-		&lt;p class=&#34;card-text bg-light p-3&#34;&gt;Apakah sudah boleh menaikkan siswa di EMIS?&lt;/p&gt;
+		&lt;p class=&#34;card-text border-bottom pb-3 pb-xl-4&#34;&gt;Apakah sudah boleh menaikkan siswa di EMIS?&lt;/p&gt;
 		&lt;p class=&#34;card-text&#34;&gt;Silahkan mulai untuk mulai mengerjakan EMIS, mulai pelulusan sampai dengan pembuatan rombel untuk kenaikan kelas.&lt;/p&gt;
 		&lt;p class=&#34;card-text&#34;&gt;Untuk peserta didik baru silahkan mulai di&lt;/p&gt;
 		&lt;ol&gt;
