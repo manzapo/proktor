@@ -4,7 +4,7 @@ title       : {{ replace .Name "-" " " | title }}
 description : {{ replace .Name "-" " " | title }}
 slug        : {{ .Name }}
 stylesheet  :
-- 
+- bootstrap-icons.css
 layout      : plain
 ---
 

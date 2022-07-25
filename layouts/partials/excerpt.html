@@ -4,7 +4,7 @@
 	<div class="card mb-3">
 		<div class="card-body p-xl-4">
 			<div class="d-flex flex-column flex-sm-row justify-content-sm-between">
-				<div class="order-sm-2 text-black-50 small">{{ .PublishDate.Format "2 Jan" }}</div>
+				<div class="order-sm-2 text-nowrap text-black-50 small">{{ .PublishDate.Format "2 Jan" }}</div>
 				<a href="{{ .Permalink }}" class="order-sm-1 h5 card-title text-decoration-none">{{ .Title }}</a>
 			</div>
 			<p class="card-text text-muted">{{ .Params.description }}</p>
